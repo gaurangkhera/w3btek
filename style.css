@@ -11,7 +11,7 @@
 
 nav{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     min-height: 8vh;
     background-color: #736CED;
@@ -25,6 +25,18 @@ nav{
     letter-spacing: 5px;
     font-weight: bolder;
     font-size: 25px;
+    margin-left: 15px;
+}
+
+.logo img{
+    background-color: #736CED;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-weight: bolder;
+    font-size: 25px;
+    border-radius: 50%;
+    width: 25%;
+    margin-top: 10px;
 }
 
 .nav-links{
@@ -52,6 +64,7 @@ nav{
     display: none;
     cursor: pointer;
     background-color: #F2F3F5;
+    margin-right: 15px;
 }
 
 .burger div{
