@@ -4,7 +4,8 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    background-color: #FEF9FF;
+    /* background-color: #FEF9FF; */
+    color: black;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -63,19 +64,29 @@ nav{
 .burger{
     display: none;
     cursor: pointer;
-    background-color: #F2F3F5;
+    background-color: ;
     margin-right: 15px;
 }
 
 .burger div{
     width: 25px;
     height: 5px;
-    background-color: #736CED;
+    background-color: #F2F3F5;
     margin: 5px;
 }
 
-.text{
+.line1, .line2, .line3{
+    border-radius: 2px;
+}
+
+.heading{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.container{
     padding: 10px;
+    height: 100vh;
 }
 
 @media screen and (max-width:1024px){
@@ -91,15 +102,18 @@ nav{
 
     .nav-links{
         position: absolute;
+         margin-top: 13px;
          right: 0px;
-         height: 50vh;
+         height: 75vh;
          top: 8vh;
          background-color: #736CED;
-         display: flex;
+         display: none;
          flex-direction: column;
          align-items: center;
          width: 100%;
-         transform: translateY(-200%);
+         /* transform: translateY(-200%); */
+         /* z-index: -9999; */
+         
          transition: transform 0.5s ease-in-out;
     }
 
@@ -113,13 +127,16 @@ nav{
 }
 
 .nav-active{
-    transform: translateY(0%);
+    /* transform: translateY(0%); */
+    z-index: 0;
+    display: flex;
+    transition: transform 0.5s ease-in-out;
 }
 
 @keyframes navLinkFade{
     from{
         opacity: 0;
-        transform: translateY(50px);
+        transform: translateY(-50px);
     }
     to{
         opacity: 1;
