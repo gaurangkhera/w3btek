@@ -77,7 +77,7 @@ nav{
     }
 
     .nav-links{
-        position: absolute;
+        position: sticky;
          right: 0px;
          height: 50vh;
          top: 8vh;
