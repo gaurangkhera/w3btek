@@ -5,7 +5,7 @@
     font-family: sans-serif;
     letter-spacing: 1px;
     font-weight: 300;
-    font-family: 'Roboto', sans-serif;
+    /* font-family: 'Roboto', sans-serif; */
 }
 
 body {
@@ -319,17 +319,15 @@ nav {
     margin-bottom: 50px;
 }
 
-.col-4 h4{
+/* .col-4 h4{
     font-weight: 600 ;
-}
+} */
 
 .col-4 img{
     width: 100%;
 }
 
-.rating{
-    color: rgb(black, black, black);
-}
+
 
 
 
