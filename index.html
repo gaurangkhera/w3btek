@@ -13,7 +13,7 @@
 <body>
     <nav>
         <div class="logo">
-            <img src="img/logo2.png" alt="Logo Image">
+            <img src="img/favicon.png" alt="Logo Image">
         </div>
         <div class="hamburger">
             <div class="line1"></div>
@@ -21,19 +21,35 @@
             <div class="line3"></div>
         </div>
         <ul class="nav-links">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Products</a></li>
-            <li><a href="#">Timeline</a></li>
-            <li><a href="#">Contact Us</a></li>
-            <li><button class="log" href="#">Login</button></li>
-            <li><button class="log" href="#">Register</button></li>
-            <li><button class="log" href="#">Register</button></li>
+            <li><a class="u" href="/">Home</a></li>
+            <li><a class="u" href="#">About</a></li>
+            <li><a class="u" href="#">Products</a></li>
+            <li><a class="u" href="#">Timeline</a></li>
+            <li><a class="u" href="#">Contact Us</a></li>
+            <li><a class="u" href="#"><img src="img/cart.png" width="30px" height="30px"></a></li>
+            <li><a class="log" href="{%url 'login'%}">Login</a></li>
+            <li><a class="log" href="{%url 'register'%}">Register</a></li>
+            <li><a class="log" href="{%url 'logout'%}">Logout</a></li>
         </ul>
     </nav>
+    
     <div class="container">
-        
+        <div class="row">
+            <div class="col-2">
+                <br><br><br><br><br><br>
+                <h1>Lorem ipsum dolor<br>sit amet consectetur.</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad<br>in perspiciatis fugiat corrupti architecto esse cake?</p>
+                <br>
+                <a href="" class="btn">Order Now &#8594</a>
+                
+            </div>
+            <div class="col-2">
+                <br><br><br>
+                <img src="img/main.png" alt="">
+            </div>
+        </div>
     </div>
+    
 </body>
 <script src="script.js"></script>
 
