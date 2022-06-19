@@ -127,6 +127,14 @@ nav {
         z-index: 3;
     }
 
+    .col-4{
+        flex-basis: 25%;
+        padding: 10px;
+        min-width: 200px;
+        margin-bottom: 50px;
+        flex-direction: column;
+    }
+
     .hamburger {
         display: block;
         position: absolute;
@@ -201,6 +209,8 @@ nav {
     li.fade {
         opacity: 1;
     }
+
+    
 }
 
 .toggle .line1 {
