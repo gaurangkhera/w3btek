@@ -27,6 +27,7 @@ nav {
 .logo {
     padding: 1vh 1vw;
     text-align: center;
+    margin-left: 10px;
 }
 
 .logo img {
@@ -145,6 +146,14 @@ nav {
         flex-direction: column;
     }
 
+    .big {
+        font-size: 20px !important;
+    }    
+
+    .medium{
+        font-size: 15px !important;
+    }
+
     .hamburger {
         display: block;
         position: absolute;
@@ -218,8 +227,13 @@ nav {
         opacity: 1;
     }
 
-    
+    footer{
+        height: 10vh !important;
+    }
 
+    footer .text{
+        font-size: 25px;
+    }
     
 }
 
@@ -407,6 +421,22 @@ nav {
     .small {
         font-size: 30px;
     }
+}
+
+.col-4 .btn{
+    text-align: center;
+    display: block;
+    margin: auto;
+}
+
+footer{
+    background-color: #6366f1;
+    height: 7.739938080495356vh;
+    text-align: center;
+    font-size: 30px;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
 }
 
 

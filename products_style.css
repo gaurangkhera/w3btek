@@ -1,0 +1,36 @@
+*{
+   padding: 0;
+   margin: 0;
+}
+
+.products{
+    display: flex;
+    padding: 10px;
+    min-width: 200px;
+    margin-bottom: 50px;
+    gap: 15px;
+    text-align: center;
+    flex-basis: 33.333333%;
+    list-style: none;
+    flex-wrap: wrap;
+}
+
+.products img { 
+    width: 20vw;
+    height: 50vh;
+    border-radius: 10px;
+    transition: all 0.5s ease-in-out;
+    cursor: pointer;
+    border-spacing: 200vw;
+}
+
+.products img:hover{
+    box-shadow:0 0 5px 5px #f2f5f7;
+    transition: all 0.5s ease-in-out;
+} 
+
+.products p{
+    flex-direction: column;
+    justify-content: center;
+    
+}
