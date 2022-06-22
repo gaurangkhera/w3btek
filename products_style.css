@@ -24,6 +24,13 @@
     border-spacing: 200vw;
 }
 
+@media screen and (max-width: 923px) {
+    .products img{
+        width: 75vw;
+        height: 60vh;
+    }
+}
+
 .products img:hover{
     box-shadow:0 0 5px 5px #f2f5f7;
     transition: all 0.5s ease-in-out;
@@ -33,4 +40,10 @@
     flex-direction: column;
     justify-content: center;
     
+}
+
+.products .btn{
+    text-align: center;
+    display: block;
+    margin: auto;
 }
