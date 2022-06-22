@@ -284,7 +284,7 @@ nav {
     color: #111827;
     text-align: center;
     text-decoration: none;
-    transition: all 1s;
+    transition: all 0.5s;
     cursor: pointer;
 }
 
