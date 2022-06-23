@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    display: border-box;
+    box-sizing: border-box;
 }
 
 .small-container{
@@ -18,6 +18,12 @@
     justify-content: space-around;
 }
 
+#ProductImg{
+    height: 60vh;
+    width: 50vw;
+    border-radius: 10px;
+}
+
 .single-product{
     margin-top: 80px;
 }
@@ -29,6 +35,7 @@
 
 .col-2 img{
     max-width: 100%;
+    border-radius: 3px;
     padding: 50px 0;
 }
 
@@ -47,7 +54,78 @@
 
 .col-2{
     flex-basis: 50%;
+    min-width: 300px;
+}
+
+.col-2 h1{
+    font-size: 50px;
     line-height: 60px;
     margin: 25px 0;
 }
+
+.single-product select{
+    display: block;
+    padding: 10px;
+    margin-top: 20px;
+    color: black;
+    margin-bottom: 10px;
+}
+
+.single-product select option{
+    color: black;
+
+}
+
+.single-product .quant{
+    color: black;
+    margin-bottom: 10px;
+}   
+
+.single-product .btn{
+    margin-bottom: 10px;
+}
+
+.single-product h4{
+    margin: 20px 0;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.single-product input{
+    width: 50px;
+    height: 40px;
+    padding-left: 10px;
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+input:focus{
+    outline: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+footer{
+    bottom: 0;
+    margin-top: 10vh;
+}
+
+@media screen and (max-width: 923px){
+    #ProductImg{
+        width: 70vw;
+    }
+}
+
+@media screen and (max-width: 430px){
+    #ProductImg{
+        width: 80vw;
+        height: 38vh;
+    }
+}
+
+
+
+
 
