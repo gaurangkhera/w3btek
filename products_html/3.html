@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>XINO Threads | Products</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../products_style.css">
+    <link rel="stylesheet" href="details.css">
+    <link rel="icon" type="image/x-icon" href="../img/favicon.png">
+</head>
+
+<body>
+    <nav>
+        <div class="logo">
+            <img src="../img/favicon.png" alt="Logo Image">
+        </div>
+        <div class="hamburger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+        <ul class="nav-links">
+            <li><a class="u" href="/">Home</a></li>
+            <li><a class="u" href="#">About</a></li>
+            <li><a class="u" href="/products.html">Products</a></li>
+            <li><a class="u" href="#">Contact Us</a></li>
+            <li><a class="log" href="{%url 'login'%}">Login</a></li>
+            <li><a class="log" href="{%url 'register'%}">Register</a></li>
+            <li><a class="log" href="{%url 'logout'%}">Logout</a></li>
+            <li><a class="u" href="#"><img src="../img/cart.png" width="30px" height="30px"></a></li>
+            <div class="theme-switch-wrapper">
+                <label class="theme-switch" for="checkbox">
+                    <input type="checkbox" id="checkbox" />
+                    <div class="slider round"></div>
+              </label>
+            </div>
+        </ul>
+    </nav><br><br><br><br><br><br><br><br>
+    
+    <div class="small-container single-product">
+        <div class="row">
+            <div class="col-2">
+                <img src="../img/product-3.png" width="100%" id="ProductImg">
+                <div class="small-img-row">
+                    <div class="small-img-col">
+                        <img src="../img/gallery-1.png" alt="" width="100%" class="small-img">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="../img/gallery-2.png" alt="" width="100%" class="small-img">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="../img/gallery-3.png" alt="" width="100%" class="small-img">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="../img/gallery-4.png" alt="" width="100%" class="small-img">
+                    </div>
+                </div>
+            </div>
+            <div class="col-2">
+                <p>Home / Lorem, ipsum.</p>
+                <h1>Lorem ipsum dolor sit.</h1>
+                <h4>$30</h4>
+                <select class="size">
+                    <option>Size</option>
+                    <option>XS</option>
+                    <option>S</option>
+                    <option>M</option>
+                    <option>L</option>
+                    <option>XL</option>
+                    <option>XXL</option>
+                </select>
+                <input type="number" placeholder="Quantity" value="1" class="quant" min="0">
+                <a href="" class="btn">Add To Cart</a>
+                <h3>Product Details - </h3>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur tempora delectus molestiae nesciunt sit nihil porro repellat maiores reprehenderit quas.</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="../script.js"></script>
+    <script src="details.js"></script>
+    <footer><div class="text">XINO Threads Inc.<br>to be finished</div></footer>
+</body>
+
+
+</html>
