@@ -488,7 +488,6 @@ footer{
     cursor: pointer;
 }
 
-/*Simple css to style it like a toggle switch*/
 .theme-switch-wrapper {
     display: flex;
     align-items: center;
@@ -567,7 +566,7 @@ a {
 :root {
     --primary-color: #f2f5f7;
     --secondary-color: #11182;
-    --font-color: 11182;
+    --font-color: #111827;
     --bg-color: #f2f5f7;
     --heading-color: #111827;
 }
@@ -577,7 +576,6 @@ a {
     --secondary-color: #f2f5f7;
     --font-color: #f2f5f7;
     --bg-color: #111827;
-    --p-text: #f2f5f7;
     --btn-outline: #f2f5f7;
 }
 
