@@ -449,19 +449,54 @@ footer{
     width: 100%;
 }
 
+.btn{
+    color: #111827  ;
+}
+
 @media (prefers-color-scheme: dark){
     *{
-        color: #f2f5f7;
+        color: var(--font-color) !important;
+    }
+
+    .txt_field label{
+        color: #111827 !important;
     }
 
     body{
         background-color: #111827;
     }
+
+    .btn {
+        color: #111827 !important;
+        border: 3px solid #6366f1;
+    }
+
+    .btn:hover{
+        color: #f2f5f7 !important;
+    }
+
+    .single-product select{
+        display: block;
+        padding: 10px;
+        margin-top: 20px;
+        color: #111827 !important;
+        margin-bottom: 10px;
+    }
+    
+    .single-product select option{
+        color: #111827 !important;
+    
+    }
+
+    .single-product .quant{
+        color: #111827 !important;
+        margin-bottom: 10px;
+    }   
 }
 
 @media (prefers-color-scheme: light){
     *{
-        color: #111827;
+        color: var(--font-color) !important;
     }
 
     body{
@@ -469,8 +504,9 @@ footer{
     }
 
     .btn {
-        background: #f2f5f7;
-        border: 3px solid #6366f1;
+        background: transparent;
+        border: 3px solid #6366f1 ;
+        columns: #111827;
     }
 
     .btn:hover{
@@ -480,6 +516,9 @@ footer{
     footer{
         color: #f2f5f7;
     }
+
+
+    
 }
 
 #icon{
@@ -577,6 +616,55 @@ a {
     --font-color: #f2f5f7;
     --bg-color: #111827;
     --btn-outline: #f2f5f7;
+}
+
+#features {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+#features .features-box{
+    width: 180px;
+    text-align: center;
+    padding: 25px 15px;
+    background-color: #e8f6ea ;
+    border: 1px solid #004b0b;
+    border-radius: 10px;
+    margin: 15px 0;
+    transition: box-shadow 0.5s ease-in-out;
+}
+#features .features-box:hover{
+    cursor: pointer;
+    box-shadow: 0 0 20px #e8f6ea;
+}
+#features .features-box h6 {
+    display: inline-block;
+    padding: 9px 8px 6px 8px;
+    line-height: 1;
+    border-radius: 4px;
+    color:#088178;
+    background-color: #fddde4;
+}
+#features .features-box:nth-child(2) h6{
+    background-color: #cdebbc;
+}
+#features .features-box:nth-child(3) h6{
+    background-color: #d1e8f2;
+}
+#features .features-box:nth-child(4) h6{
+    background-color: #cdd4f8;
+}
+#features .features-box:nth-child(5) h6{
+    background-color: #f6dbf6;
+}
+#features .features-box:nth-child(6) h6{
+    background-color: #fff2e5;
+}
+#features .features-box img {
+    width: 100%;
+    margin-bottom: 10px;
 }
 
 

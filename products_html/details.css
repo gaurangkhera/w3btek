@@ -72,7 +72,7 @@
 }
 
 .single-product select option{
-    color: black;
+    color: black !;
 
 }
 
