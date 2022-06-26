@@ -101,7 +101,7 @@ nav {
 }
 
 .log:hover{
-    background-color: #111827;
+    background-color: var(--bg-color);
     transition: all ease-in-out .5s;
 }
 
@@ -474,6 +474,9 @@ footer{
         color: #f2f5f7;
     }
 
+    .log:hover{
+        background-color: #6366f1 !important;
+    }
 
     
 }
