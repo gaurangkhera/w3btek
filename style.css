@@ -456,6 +456,10 @@ footer{
         color: var(--font-color) !important;
     }
 
+    .txt_field label{
+        color: #111827 !important;
+    }
+
     body{
         background-color: #f2f5f7;
     }
