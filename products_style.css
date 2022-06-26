@@ -42,7 +42,7 @@
 }
 
 .products img:hover{
-    box-shadow:0 0 5px 5px #f2f5f7;
+    box-shadow:0 0 5px 5px var(--font-color);
     transition: all 0.5s ease-in-out;
 } 
 
@@ -59,33 +59,34 @@
     margin: auto;
 }
 
-.p1 .btn{
-    margin-top: 25px;
+card {
+    color: white;
+    padding: 1rem;
+    margin-top: 50px;
 }
 
-.anim {
-        position: relative;
-  }
-  
-  .anim:after {
-    content: '';
-    position: absolute;
+.card img{
     width: 100%;
-    transform: scaleX(0);
-    height: 3px;
-    bottom: 0;
-    left: 0;
-    background-color: #f2f5f7;
-    transform-origin: bottom right;
-    transition: transform 0.25s ease-in-out;
-  }
-  
-  .anim:hover:after {
-    transform: scaleX(1);
-    transform-origin: bottom left;
-  }
+    height: 75%;
+    border-radius: 10px;
+    transition: all 0.5s ease-in-out;
+}
 
-.p1 p{
-    margin-top: 10px;
-    margin-bottom: 50px;
+.card img:hover{
+    box-shadow: 0 0 10px 2px var(--font-color);
+}
+
+.cards {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-gap: 1rem;
+}
+
+@media (min-width: 600px) {
+  .cards { grid-template-columns: repeat(2, 1fr); }
+}
+
+@media (min-width: 900px) {
+  .cards { grid-template-columns: repeat(4, 1fr); }
 }
